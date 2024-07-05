@@ -8,5 +8,12 @@ cd /home/kalifa/Desktop/openVPN
 ls -l
 @choose one
 openvpn --config vpnbook-de20-tcp443.ovpn
+@enter the username and password provided by the site vpnbook.com
+
+@get the OpenDNS nameserver
+nano /etc/resolv.conf
+@@put this ---> nameserver 208.67.222.222
+@@put this ---> nameserver 208.67.220.200
+
 
 @now check ur IP address
