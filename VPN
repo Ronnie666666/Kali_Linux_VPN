@@ -1,2 +1,12 @@
 @@VPN, choose one or all of them
 apt-get install network-manager-openvpn-gnome network-manager-pptp network-manager-pptp-gnome network-manager-strongswan network-manager-vpnc network-manager-vpnc-gnome -y
+
+@go to VPNBOOK.com to download free vpn
+@download and extract to desktop
+
+cd /home/kalifa/Desktop/openVPN
+ls -l
+@choose one
+openvpn --config vpnbook-de20-tcp443.ovpn
+
+@now check ur IP address
